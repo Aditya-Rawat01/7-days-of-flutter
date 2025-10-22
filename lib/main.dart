@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purple
       ),
-      home: BottomnavigationWidget()
+      home: DropdownlistWidget()
     );
   }
 }
