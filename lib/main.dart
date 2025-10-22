@@ -3,6 +3,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:second_flutter_project/widgets/alert_widget.dart';
+import 'package:second_flutter_project/widgets/animatedText_Widget.dart';
+import 'package:second_flutter_project/widgets/bottomSheet_widget.dart';
 import 'package:second_flutter_project/widgets/container_widget.dart';
 import 'package:second_flutter_project/widgets/dismissible_widget.dart';
 import 'package:second_flutter_project/widgets/drawer.dart';
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purple
       ),
-      home: AlertWidget()
+      home: animatedTextWidget()
     );
   }
 }

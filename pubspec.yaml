@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cached_network_image: 
-
+  animated_text_kit:
 
 dev_dependencies:
   flutter_test:
