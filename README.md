@@ -11,3 +11,6 @@ assets folder
 
 
 - use animated_text_kit package for animated texts. [text](https://pub.dev/packages/animated_text_kit)
+
+
+- forms need formkey.
