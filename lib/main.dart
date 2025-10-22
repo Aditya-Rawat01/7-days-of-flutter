@@ -15,6 +15,7 @@ import 'package:second_flutter_project/widgets/image_Widget.dart';
 import 'package:second_flutter_project/widgets/listGrid_widget.dart';
 import 'package:second_flutter_project/widgets/row_col_widget.dart';
 import 'package:second_flutter_project/widgets/snackbar_widget.dart';
+import 'package:second_flutter_project/widgets/stack.dart';
 import 'package:second_flutter_project/widgets/textButton.dart';
 
 void main() =>runApp(MyApp());
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purple
       ),
-      home: formWidget()
+      home: stackWidget()
     );
   }
 }

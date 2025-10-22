@@ -14,3 +14,7 @@ assets folder
 
 
 - forms need formkey.
+
+- in stack, the container placed before will have lower z-index
+
+- positioned works like absolute positioning.
