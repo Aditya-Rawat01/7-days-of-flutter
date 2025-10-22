@@ -19,3 +19,7 @@
 - in stack, the container placed before will have lower z-index
 
 - positioned works like absolute positioning.
+
+- XFile is a cross-platform abstraction designed to represent a file selected from various sources, such as the camera or gallery, across different platforms like Android, iOS, and the web
+
+- image_picker package doesnt run on web. It needs android simulator.

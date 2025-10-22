@@ -12,11 +12,13 @@ import 'package:second_flutter_project/widgets/dismissible_widget.dart';
 import 'package:second_flutter_project/widgets/drawer.dart';
 import 'package:second_flutter_project/widgets/dropDownList_widget.dart';
 import 'package:second_flutter_project/widgets/forms_widget.dart';
+import 'package:second_flutter_project/widgets/imagePicker_widget.dart';
 import 'package:second_flutter_project/widgets/image_Widget.dart';
 import 'package:second_flutter_project/widgets/listGrid_widget.dart';
 import 'package:second_flutter_project/widgets/row_col_widget.dart';
 import 'package:second_flutter_project/widgets/snackbar_widget.dart';
 import 'package:second_flutter_project/widgets/stack.dart';
+import 'package:second_flutter_project/widgets/tabBar_widget.dart';
 import 'package:second_flutter_project/widgets/textButton.dart';
 
 void main() =>runApp(MyApp());
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purple
       ),
-      home: Visacard()
+      home: ImagepickerWidget()
     );
   }
 }
