@@ -11,6 +11,7 @@ dependencies:
     sdk: flutter
   cached_network_image: 
   animated_text_kit:
+  google_fonts: 
 
 dev_dependencies:
   flutter_test:
