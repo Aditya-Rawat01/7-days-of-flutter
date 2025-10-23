@@ -12,7 +12,9 @@ dependencies:
   cached_network_image: 
   animated_text_kit:
   google_fonts:
-  image_picker: 
+  image_picker:
+  geolocator:
+  fluttertoast: 
 
 dev_dependencies:
   flutter_test:

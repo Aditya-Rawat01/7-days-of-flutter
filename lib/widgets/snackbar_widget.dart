@@ -11,7 +11,7 @@ class SnackbarWidget extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () {
             final Snackbar = SnackBar(
-              content: Text("this is a mafaka toast"),
+              content: Text("this is a mafaka snackbar not a toast."),
               backgroundColor: Colors.amber,
               showCloseIcon: false,
               duration: Duration(seconds: 4),

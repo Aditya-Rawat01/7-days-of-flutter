@@ -15,6 +15,7 @@ import 'package:second_flutter_project/widgets/forms_widget.dart';
 import 'package:second_flutter_project/widgets/imagePicker_widget.dart';
 import 'package:second_flutter_project/widgets/image_Widget.dart';
 import 'package:second_flutter_project/widgets/listGrid_widget.dart';
+import 'package:second_flutter_project/widgets/location_widget.dart';
 import 'package:second_flutter_project/widgets/row_col_widget.dart';
 import 'package:second_flutter_project/widgets/snackbar_widget.dart';
 import 'package:second_flutter_project/widgets/stack.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purple
       ),
-      home: ImagepickerWidget()
+      home: LocationWidget()
     );
   }
 }

@@ -23,3 +23,5 @@
 - XFile is a cross-platform abstraction designed to represent a file selected from various sources, such as the camera or gallery, across different platforms like Android, iOS, and the web
 
 - image_picker package doesnt run on web. It needs android simulator.
+
+- image_picker package adds the permissions needed automatically, but for geolocator package, we need to manually add that to android manifest and info.plist in ios.
