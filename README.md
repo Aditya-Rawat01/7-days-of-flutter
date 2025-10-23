@@ -25,3 +25,15 @@
 - image_picker package doesnt run on web. It needs android simulator.
 
 - image_picker package adds the permissions needed automatically, but for geolocator package, we need to manually add that to android manifest and info.plist in ios.
+
+- flutter_launcher_icons package for giving the native app logo
+
+- flutter_native_splash package for splash screens/ welcoming screens to the app.
+
+- the app logo must not contain any transparent things otherwise it will show error for ios while publishing, otherwise we have to add the remove_alpha_ios: true under flutter_icons.
+
+- android under flutter_launch_icons needs to be true instead of "launcher_icon"
+
+- app bundle id needs to be unique.
+
+- rename package helps renaming the app and add unique bundle id for publishing to app store and play store.

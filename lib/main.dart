@@ -2,6 +2,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:second_flutter_project/practice/complexUI.dart';
 import 'package:second_flutter_project/practice/visaCard.dart';
 import 'package:second_flutter_project/widgets/alert_widget.dart';
 import 'package:second_flutter_project/widgets/animatedText_Widget.dart';
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.purple
       ),
-      home: LocationWidget()
+      home: Complexui()
     );
   }
 }
