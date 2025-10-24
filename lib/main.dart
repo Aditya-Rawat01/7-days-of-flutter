@@ -3,6 +3,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:second_flutter_project/practice/complexUI.dart';
+import 'package:second_flutter_project/practice/ig_profile_Ui.dart';
 import 'package:second_flutter_project/practice/visaCard.dart';
 import 'package:second_flutter_project/widgets/alert_widget.dart';
 import 'package:second_flutter_project/widgets/animatedText_Widget.dart';
@@ -33,10 +34,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.dark,
-        primaryColor: Colors.purple
+        brightness: Brightness.light,
+        primaryColor: Colors.purple,
       ),
-      home: Complexui()
+      home: IgWidgetUI()
     );
   }
 }
